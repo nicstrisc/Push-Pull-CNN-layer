@@ -1,0 +1,14 @@
+Perturbation: gaussian_noise   | Top5 Distance: 2.98358
+Perturbation: shot_noise       | Top5 Distance: 3.20944
+Perturbation: motion_blur      | Top5 Distance: 2.32946
+Perturbation: zoom_blur        | Top5 Distance: 0.44277
+Perturbation: spatter          | Top5 Distance: 1.01074
+Perturbation: brightness       | Top5 Distance: 0.52882
+Perturbation: translate        | Top5 Distance: 1.83477
+Perturbation: rotate           | Top5 Distance: 1.86672
+Perturbation: tilt             | Top5 Distance: 0.91800
+Perturbation: scale            | Top5 Distance: 1.92935
+Perturbation: speckle_noise    | Top5 Distance: 3.10646
+Perturbation: gaussian_blur    | Top5 Distance: 0.56160
+Perturbation: snow             | Top5 Distance: 1.22501
+Perturbation: shear            | Top5 Distance: 1.46754

@@ -1,0 +1,14 @@
+Perturbation: gaussian_noise   | Flip Prob: 0.08229
+Perturbation: shot_noise       | Flip Prob: 0.11053
+Perturbation: motion_blur      | Flip Prob: 0.11908
+Perturbation: zoom_blur        | Flip Prob: 0.00780
+Perturbation: spatter          | Flip Prob: 0.02330
+Perturbation: brightness       | Flip Prob: 0.00892
+Perturbation: translate        | Flip Prob: 0.04556
+Perturbation: rotate           | Flip Prob: 0.05268
+Perturbation: tilt             | Flip Prob: 0.01785
+Perturbation: scale            | Flip Prob: 0.06474
+Perturbation: speckle_noise    | Flip Prob: 0.10028
+Perturbation: gaussian_blur    | Flip Prob: 0.01521
+Perturbation: snow             | Flip Prob: 0.03716
+Perturbation: shear            | Flip Prob: 0.04080

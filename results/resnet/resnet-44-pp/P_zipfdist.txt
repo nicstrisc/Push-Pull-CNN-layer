@@ -1,0 +1,14 @@
+Perturbation: gaussian_noise   | Zipf Distance: 0.13096
+Perturbation: shot_noise       | Zipf Distance: 0.15590
+Perturbation: motion_blur      | Zipf Distance: 0.14928
+Perturbation: zoom_blur        | Zipf Distance: 0.01474
+Perturbation: spatter          | Zipf Distance: 0.04614
+Perturbation: brightness       | Zipf Distance: 0.02883
+Perturbation: translate        | Zipf Distance: 0.09200
+Perturbation: rotate           | Zipf Distance: 0.08859
+Perturbation: tilt             | Zipf Distance: 0.03556
+Perturbation: scale            | Zipf Distance: 0.10051
+Perturbation: speckle_noise    | Zipf Distance: 0.14712
+Perturbation: gaussian_blur    | Zipf Distance: 0.02272
+Perturbation: snow             | Zipf Distance: 0.06044
+Perturbation: shear            | Zipf Distance: 0.07417
