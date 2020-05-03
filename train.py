@@ -250,7 +250,7 @@ def main():
             'epoch': epoch + 1,
             'state_dict': model.state_dict(),
             'best_prec1': best_prec1,
-        }, is_best)
+        }, is_best, output_dir)
 
     print('Best accuracy: ', best_prec1)
     fileout = open(output_dir + args.name + '/log.txt', "a+")
@@ -393,12 +393,12 @@ def validate(logger, val_loader, model, criterion, epoch, file=None):
     return top1.avg
 
 
-def save_checkpoint(state, is_best, filename='checkpoint.pth.tar'):
+def save_checkpoint(state, is_best, output_dir, filename='checkpoint.pth.tar'):
     """Saves checkpoint to disk"""
-    directory = "resnet/runs/%s/" % (args.name)
+    directory = output_dir + args.name
     if not os.path.exists(directory):
         os.makedirs(directory)
-    filename = directory + filename
+    filename = directory + "/" + filename
     torch.save(state, filename)
     # if is_best:
     #    shutil.copyfile(filename, 'resnet/runs/%s/' % (args.name) + 'model_best.pth.tar')
