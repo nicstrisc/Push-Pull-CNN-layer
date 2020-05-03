@@ -4,6 +4,8 @@
 # 4.0 International Public License. To view a copy of this license, visit
 # https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.
 
+# Original code is developed by Richard Zhang (Adobe) and is available at https://github.com/adobe/antialiased-cnns
+
 import torch
 import torch.nn.parallel
 import numpy as np
